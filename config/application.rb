@@ -37,6 +37,7 @@ module Coursely
 
     config.generators do |g|
       g.orm :active_record, primary_key_type: :uuid
+      g.factory_bot suffix: "factory"
     end
   end
 end
